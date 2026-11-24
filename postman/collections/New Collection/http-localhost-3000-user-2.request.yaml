@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:3000/user/2
+description: ""
+url: http://localhost:3000/user/2
+method: GET
+body:
+  type: json
+  content: "{\r\n  \"age\": 30\r\n}"
+order: 1000
